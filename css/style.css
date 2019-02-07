@@ -1,8 +1,13 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  text-size: 16px;
+  color: black;
+  background-color: white;
+  color: black;
 }
 
+p{
+  text-size:36px;
+}
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
