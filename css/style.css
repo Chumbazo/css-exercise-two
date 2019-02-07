@@ -1,12 +1,27 @@
 body {
-  text-size: 16px;
+  font-size: 16px;
+  line-height: normal;
   color: black;
   background-color: white;
   color: black;
 }
+h1{
+  font-size: 3em;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h2{
+  font-size: 2em;
+  line-height: 140%;
+  font-weight: 300;
+  padding-bottom: 15px;
+}
 
 p{
-  text-size:36px;
+    font-size: 1.6em;
+    line-height: 45px;
+
 }
 nav {
   background-color: rgba(0,0,0,.5);
@@ -14,44 +29,61 @@ nav {
   position: fixed;
   width: 100%;
 }
-
-.logo {
-  margin: 20px;
-  width: 100px;
-}
-
-.large-pic {
-  width: 100%;
-}
-
-.medium-pic {
-  width: 70%;
-}
-
-.left, .right {
-  float: left;
-  width: 50%;
-}
-
-.right {
-  float: right;
-}
-
 ul {
   list-style-type: none;
   float: right;
+  width: 0px;
 }
 
 li {
   float: right;
-  padding: 30px;
+  color: white;
+  padding: 50px;
+  font-size: 2em;
+
 }
 
 article {
-  padding-top: 100px;
+  padding-top:300px;
+}
+
+a{
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 50px 50px;
+  width: 100px;
+}
+
+.medium-pic {
+  width: 45%;
+}
+
+.left, .right {
+  float: left;
+  width: 100%;
 }
 
 .container {
   margin: 0 auto;
   width: 50%;
 }
+
+.story-text{
+padding-top: 50px:
+
+}
+
+figcaption{
+  padding-top: 10px;
+  font-style: italic;
+
+
+}
+
+a:link { color: white; } /* unvisited */
+a:visited { color: white; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
